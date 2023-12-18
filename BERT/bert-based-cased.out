@@ -1,0 +1,14 @@
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+working with cuda
+max length: 128
+batch size: 16
+learning rate: 0.001
+optimizer: Adam with linear learning rate scheduler
+number of epochs: 5
+training data size: 650000
+Epoch 1/5 [100%] Loss: 1.4323 Accuracy: 0.3611
+Epoch 2/5 [100%] Loss: 1.4015 Accuracy: 0.3789
+Epoch 3/5 [100%] Loss: 1.3990 Accuracy: 0.3804
+Epoch 4/5 [100%] Loss: 1.3978 Accuracy: 0.3803
+Epoch 5/5 [100%] Loss: 1.3984 Accuracy: 0.3813
