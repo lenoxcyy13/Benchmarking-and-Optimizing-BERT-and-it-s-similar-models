@@ -30,10 +30,6 @@ Each folder with the name of model contains the training code, evaluating code a
 		Python script for training the sentiment analysis model using the BERT architecture
 	- `evaluate.ipynb`
 		Jutypernotebook for evaluating the trained BERT model on test data
-	- `yelp_model-128-16`
-		Trained bert-base-cased model
-	- `yelp_model-128-16-un`
-		Trained bert-base-uncased model
 	- `bert-based-cased.out`
 		Output of the bert-base-cased training process
 	- `bert-case-uncased.out`
