@@ -1,0 +1,121 @@
+---------------------------------------------
+RoBERTa_batch_16_lr_0.001 is selected:
+
+Epoch 1 on test set accuracy of 0.57
+
+Saving best model to /checkpoints.
+
+Epoch 2 on test set accuracy of 0.88
+
+Saving best model to /checkpoints.
+
+Epoch 3 on test set accuracy of 0.92
+
+Saving best model to /checkpoints.
+
+Epoch 4 on test set accuracy of 0.93
+
+Saving best model to /checkpoints.
+---------------------------------------------
+RoBERTa_batch_32_lr_0.001 is selected:
+
+Epoch 1 on test set accuracy of 0.65
+
+Saving best model to /checkpoints.
+
+Epoch 2 on test set accuracy of 0.82
+
+Saving best model to /checkpoints.
+
+Epoch 3 on test set accuracy of 0.84
+
+Saving best model to /checkpoints.
+
+Epoch 4 on test set accuracy of 0.85
+
+Saving best model to /checkpoints.
+---------------------------------------------
+RoBERTa_batch_16_lr_0.00001 is selected:
+
+Epoch 1 on test set accuracy of 0.56
+
+Saving best model to /checkpoints.
+
+Epoch 2 on test set accuracy of 0.78
+
+Saving best model to /checkpoints.
+
+Epoch 3 on test set accuracy of 0.84
+
+Saving best model to /checkpoints.
+
+Epoch 4 on test set accuracy of 0.86
+
+Saving best model to /checkpoints.
+
+Epoch 5 on test set accuracy of 0.89
+
+Saving best model to /checkpoints.
+---------------------------------------------
+DistilBERT_batch_16_lr_0.001 is selected:
+
+Epoch 1 on test set accuracy of 0.53
+
+Saving best model to /checkpoints.
+
+Epoch 2 on test set accuracy of 0.63
+
+Saving best model to /checkpoints.
+
+Epoch 3 on test set accuracy of 0.73
+
+Saving best model to /checkpoints.
+
+Epoch 4 on test set accuracy of 0.765
+
+Saving best model to /checkpoints.
+
+Epoch 5 on test set accuracy of 0.764
+
+Saving best model to /checkpoints.
+---------------------------------------------
+DistilBERT_batch_32_lr_0.001 is selected:
+
+Epoch 1 on test set accuracy of 0.48
+
+Saving best model to /checkpoints.
+
+Epoch 2 on test set accuracy of 0.68
+
+Saving best model to /checkpoints.
+
+Epoch 3 on test set accuracy of 0.75
+
+Saving best model to /checkpoints.
+
+Epoch 4 on test set accuracy of 0.75
+
+Saving best model to /checkpoints.
+---------------------------------------------
+DistilBERT_batch_16_lr_0.00001 is selected:
+
+Epoch 1 on test set accuracy of 0.54
+
+Saving best model to /checkpoints.
+
+Epoch 2 on test set accuracy of 0.57
+
+Saving best model to /checkpoints.
+
+Epoch 3 on test set accuracy of 0.62
+
+Saving best model to /checkpoints.
+
+Epoch 4 on test set accuracy of 0.68
+
+Saving best model to /checkpoints.
+
+Epoch 5 on test set accuracy of 0.72
+
+Saving best model to /checkpoints.
+---------------------------------------------
