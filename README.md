@@ -52,3 +52,28 @@ Each folder with the name of model contains the training code, evaluating code a
 
 
 ## Results and observations
+
+**Summary of Main Results**
+|**Model**|BERT (uncased/cased)|**RoBERTa**|**DistilBERT**|
+|--|--|--|--|
+|**Accuracy**|82.38% / 78%|93.14%|76.28%|
+|**Parameters**|109M / 108M|335M|64M|
+|**Response Time**|0.041s / 0.021s|0.065s|0.023s|
+
+**BERT**
+The results of our experiment showed that the uncased version of BERT outperformed the cased version, achieving an accuracy of 82.38% compared to 75.1%. However, both models demonstrated effective sentiment analysis prediction on the test data, indicating that BERT is a powerful tool for natural language processing.
+
+Uncased BERT
+![image](https://github.com/lenoxcyy13/Benchmarking-and-Optimizing-BERT-and-it-s-similar-models/blob/main/BERT/bert-uncased.png?raw=true)
+
+Cased BERT
+![image](https://github.com/lenoxcyy13/Benchmarking-and-Optimizing-BERT-and-it-s-similar-models/assets/55534873/2fce429f-034c-4b93-8a21-3042032a8fc5)
+
+
+-   The model retrieves better results when ratings are split into positive (3-5) and negative (1-2) stars.
+	- 5 classes training allows a more fine-grained analysis of sentiment. It enables the model to capture and distinguish between different levels or nuances of sentiment
+	- Converting to binary class allows keeping the benefits of fine-grained sentiment analysis during model development while eventually adopting a simpler binary classification for deployment
+    
+-   Capitalization is not crucial in this experiment since we are focusing on the sequence and meaning of the sentences rather than grammatical conventions.
+    
+-   RoBERTa outperforms BERT because of its dynamic masking, which enables it to learn more robust features.
